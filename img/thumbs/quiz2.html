@@ -1,0 +1,47 @@
+<doctype html>
+<html>
+    <head>
+        <title>Quiz 2 </title>
+        <style>
+            img {
+                width: 400px;
+            }
+            .hover:hover{
+               background-color: grey; 
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            
+     <table border="1px">
+         <tr>
+            <td colspan="3"><img id="img1" src="1.png"></td>
+            <td><h3>Nama: Michael <br>NIM: 1901003002 </h3></td>
+        
+        </tr>
+        <tr style="text-align: center;">
+            <td id="gbr1" class="hover" onmouseover="over1()">1</td>
+            <td id="gbr2" class="hover" onmouseover="over2()">2</td>
+            <td id="gbr3" class="hover" onmouseover="over3()">3</td>
+        </tr>
+    </table>
+
+
+       </div>
+    </body>
+    <script>
+        function over1(){
+            document.getElementById("img1").src = "2.png";
+          
+        }
+        function over2(){
+            document.getElementById("img1").src = "3.png";
+           
+        }
+        function over3(){
+            document.getElementById("img1").src = "4.png";
+          
+        }
+    </script>
+</html>

@@ -1,0 +1,45 @@
+<doctype html>
+<html>
+    <head>
+        <title></title>
+        <style>
+           
+            .tabel:hover{
+               background-color: grey; 
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            
+     <table border="1px">
+         <tr>
+            <td colspan="3"><img id="gambar" src="1.png" style="width:300px;"></td>
+            <td><p>Nama: Michael <br>NIM: 1901003002 </p></td>
+        
+        </tr>
+        <tr style="text-align: center;">
+            <td id="pict1" class="tabel" >1</td>
+            <td id="pict2" class="tabel">2</td>
+            <td id="pict3" class="tabel" >3</td>
+        </tr>
+    </table>
+
+
+       </div>
+    </body>
+    <script>
+            document.getElementById("pict1").onmouseover = function(){
+                document.getElementById("gambar").src = "3.png";
+                alert();
+                }
+            document.getElementById("pict2").onmouseover = function(){
+                document.getElementById("gambar").src = "4.png";
+                alert();
+                }
+            document.getElementById("pict3").onmouseover = function(){
+                document.getElementById("gambar").src = "5.png";
+                alert();
+                }
+    </script>
+</html>
